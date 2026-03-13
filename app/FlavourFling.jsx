@@ -302,6 +302,201 @@ const RECIPES = [
     ],
     tips: "The sauce needs to be thick before the eggs go in — watery sauce means unevenly poached eggs. Keep the lid on; steam cooks the tops.",
   },
+  {
+    id: 13, title: "Sticky Miso Salmon", subtitle: "with sesame greens & pickled ginger",
+    time: "20 min", difficulty: "Easy", category: "Mains", cuisine: "Japanese-Inspired",
+    hero: "🐟", color: "#E07850", description: "Sweet, salty, umami-packed glaze on perfectly pink salmon. A weeknight hero that looks like a weekend effort.",
+    serves: 2, calories: 440, protein: "36g", tags: ["quick", "weeknight", "healthy", "date-night"], season: "all",
+    ingredients: [
+      { item: "salmon fillets, skin-on", qty: "2", section: "Main" },
+      { item: "white miso paste", qty: "2 tbsp", section: "Glaze" },
+      { item: "soy sauce", qty: "1 tbsp", section: "Glaze" },
+      { item: "mirin", qty: "1 tbsp", section: "Glaze" },
+      { item: "honey", qty: "1 tbsp", section: "Glaze" },
+      { item: "sesame oil", qty: "1 tsp", section: "Glaze" },
+      { item: "tenderstem broccoli", qty: "200g", section: "Greens" },
+      { item: "pak choi", qty: "2 heads", section: "Greens" },
+      { item: "toasted sesame seeds", qty: "1 tbsp", section: "Finish" },
+      { item: "pickled ginger", qty: "to serve", section: "Finish" },
+    ],
+    steps: [
+      { text: "Whisk together miso, soy, mirin, honey and sesame oil until smooth. Pat salmon dry and coat generously with the glaze.", timer: null },
+      { text: "Place salmon skin-side down on a lined tray. Grill on high for 8–10 minutes — the glaze should be bubbling and caramelised, fish just cooked through.", timer: 540 },
+      { text: "Meanwhile, blanch broccoli and pak choi in salted boiling water for 2 minutes, drain, toss in a little sesame oil.", timer: 120 },
+      { text: "Serve salmon on the greens, scatter sesame seeds and add pickled ginger on the side.", timer: null },
+    ],
+    tips: "Don't flip the salmon — the grill does all the work from above while the skin stays on the bottom, protecting the flesh. Watch the glaze carefully; it goes from perfect to burnt fast.",
+  },
+  {
+    id: 14, title: "Cacio e Pepe", subtitle: "the holy trinity: pasta, pecorino, pepper",
+    time: "15 min", difficulty: "Intermediate", category: "Mains", cuisine: "Italian",
+    hero: "🧀", color: "#C9B458", description: "Three ingredients. Zero margin for error. Master this and you'll never need a jar sauce again.",
+    serves: 2, calories: 490, protein: "18g", tags: ["quick", "weeknight", "comfort", "impressive"], season: "all",
+    ingredients: [
+      { item: "tonnarelli or spaghetti", qty: "200g", section: "Pasta" },
+      { item: "Pecorino Romano, very finely grated", qty: "150g", section: "Sauce" },
+      { item: "whole black peppercorns", qty: "2 tsp", section: "Sauce" },
+      { item: "flaky salt for pasta water", qty: "", section: "Sauce" },
+    ],
+    steps: [
+      { text: "Toast peppercorns in a dry pan until fragrant, then crack coarsely with the bottom of a pan or a pestle. Don't use pre-ground — it's not the same.", timer: null },
+      { text: "Cook pasta in well-salted water until 1 minute short of al dente. Reserve a full mugful of starchy pasta water before draining.", timer: null },
+      { text: "In the pepper pan over LOW heat, add a ladle of pasta water and the drained pasta. Toss to coat, remove from heat entirely.", timer: null },
+      { text: "Add pecorino in handfuls, tossing vigorously and adding splashes of pasta water. The cheese should emulsify into a creamy sauce, never clump. Serve immediately.", timer: null },
+    ],
+    tips: "The pan MUST be off direct heat when you add the cheese — too hot and it seizes into lumps. Keep adding pasta water; the sauce should be glossy and coat every strand.",
+  },
+  {
+    id: 15, title: "Thai Green Curry", subtitle: "homemade paste, chicken & Thai basil",
+    time: "35 min", difficulty: "Intermediate", category: "Mains", cuisine: "Thai",
+    hero: "🍛", color: "#4A7C3F", description: "Forget the jar. A proper green curry from a quick homemade paste that takes 5 minutes and tastes like a different planet.",
+    serves: 4, calories: 410, protein: "32g", tags: ["crowd-pleaser", "comfort", "weeknight"], season: "all",
+    ingredients: [
+      { item: "chicken thighs, boneless, sliced", qty: "500g", section: "Curry" },
+      { item: "coconut milk", qty: "400ml", section: "Curry" },
+      { item: "Thai aubergines or regular, cubed", qty: "150g", section: "Curry" },
+      { item: "green beans, trimmed", qty: "100g", section: "Curry" },
+      { item: "fish sauce", qty: "2 tbsp", section: "Curry" },
+      { item: "palm sugar or brown sugar", qty: "1 tbsp", section: "Curry" },
+      { item: "Thai basil leaves", qty: "large handful", section: "Finish" },
+      { item: "green chillies", qty: "6", section: "Paste" },
+      { item: "lemongrass stalks, sliced", qty: "2", section: "Paste" },
+      { item: "galangal or ginger, sliced", qty: "thumb", section: "Paste" },
+      { item: "garlic cloves", qty: "4", section: "Paste" },
+      { item: "shallots", qty: "3", section: "Paste" },
+      { item: "coriander roots or stems", qty: "4", section: "Paste" },
+      { item: "cumin seeds", qty: "1 tsp", section: "Paste" },
+      { item: "jasmine rice", qty: "to serve", section: "Serve" },
+    ],
+    steps: [
+      { text: "Blitz all paste ingredients in a food processor until you get a rough paste — it doesn't need to be perfectly smooth.", timer: null },
+      { text: "Fry 3 tablespoons of paste in oil over high heat for 2 minutes until fragrant. Add the thick cream from the top of the coconut milk, stir until it splits.", timer: 120 },
+      { text: "Add chicken, cook 3 minutes. Pour in remaining coconut milk, add aubergine and beans. Simmer 12 minutes until chicken is cooked through.", timer: 720 },
+      { text: "Season with fish sauce and sugar — it should be salty, sweet, spicy, and herbal. Stir in Thai basil off the heat. Serve with jasmine rice.", timer: null },
+    ],
+    tips: "Frying the paste before adding liquid is the key step most people skip — it blooms the aromatics and transforms the flavour. And Thai basil goes in off the heat or it turns black.",
+  },
+  {
+    id: 16, title: "Focaccia", subtitle: "olive oil, rosemary & flaky salt",
+    time: "3 hrs (mostly waiting)", difficulty: "Intermediate", category: "Sides", cuisine: "Italian",
+    hero: "🍞", color: "#C4A035", description: "Dimpled, golden, and soaked in olive oil. The bread that makes people think you're a professional baker.",
+    serves: 8, calories: 280, protein: "6g", tags: ["weekend-project", "crowd-pleaser", "vegetarian"], season: "all",
+    ingredients: [
+      { item: "strong white bread flour", qty: "500g", section: "Dough" },
+      { item: "fast-action yeast", qty: "7g", section: "Dough" },
+      { item: "warm water", qty: "375ml", section: "Dough" },
+      { item: "extra virgin olive oil", qty: "80ml + more", section: "Dough" },
+      { item: "fine salt", qty: "10g", section: "Dough" },
+      { item: "fresh rosemary sprigs", qty: "4", section: "Topping" },
+      { item: "flaky sea salt", qty: "generous", section: "Topping" },
+      { item: "garlic cloves, sliced (optional)", qty: "3", section: "Topping" },
+    ],
+    steps: [
+      { text: "Mix flour, yeast, water, 40ml oil, and salt into a shaggy dough. Don't knead — just fold it over itself in the bowl a few times. Cover, rest 1 hour.", timer: 3600 },
+      { text: "Pour remaining oil into a deep baking tray. Tip the dough in, stretch it gently to fill the tray. If it springs back, leave it 10 minutes and try again. Cover, rest 1 hour.", timer: 3600 },
+      { text: "Preheat oven to 220°C. Oil your fingers and press deep dimples all over the dough. Push in rosemary, garlic, and scatter flaky salt generously.", timer: null },
+      { text: "Bake for 22–25 minutes until deeply golden on top and crispy on the bottom. Cool on a wire rack for 10 minutes before tearing apart.", timer: 1380 },
+    ],
+    tips: "The oil in the tray is essential — it fries the bottom of the focaccia while the oven bakes the top. Don't skimp on it. And those dimples? They hold pools of oil. Make them deep.",
+  },
+  {
+    id: 17, title: "Korean Fried Chicken", subtitle: "gochujang glaze & pickled daikon",
+    time: "45 min", difficulty: "Intermediate", category: "Mains", cuisine: "Korean",
+    hero: "🍗", color: "#B83230", description: "Double-fried for an impossibly crunchy shell, then tossed in sticky-sweet gochujang sauce. Dangerously addictive.",
+    serves: 4, calories: 520, protein: "34g", tags: ["crowd-pleaser", "impressive", "comfort"], season: "all",
+    ingredients: [
+      { item: "chicken wings or thigh pieces", qty: "800g", section: "Chicken" },
+      { item: "cornflour", qty: "100g", section: "Coating" },
+      { item: "plain flour", qty: "50g", section: "Coating" },
+      { item: "vodka or soju (for crispiness)", qty: "2 tbsp", section: "Coating" },
+      { item: "vegetable oil for deep frying", qty: "1L", section: "Frying" },
+      { item: "gochujang", qty: "3 tbsp", section: "Glaze" },
+      { item: "soy sauce", qty: "1 tbsp", section: "Glaze" },
+      { item: "honey", qty: "2 tbsp", section: "Glaze" },
+      { item: "rice vinegar", qty: "1 tbsp", section: "Glaze" },
+      { item: "garlic cloves, grated", qty: "2", section: "Glaze" },
+      { item: "sesame seeds & spring onions", qty: "to finish", section: "Finish" },
+    ],
+    steps: [
+      { text: "Pat chicken completely dry. Toss in cornflour and plain flour mixed with salt, pepper, and vodka until evenly coated.", timer: null },
+      { text: "First fry: 160°C for 8 minutes until cooked through but pale. Remove and rest on a rack for 10 minutes — this is the double-fry secret.", timer: 480 },
+      { text: "Second fry: 190°C for 3–4 minutes until deeply golden and shatteringly crispy.", timer: 210 },
+      { text: "Meanwhile, heat the glaze ingredients in a small pan until bubbling. Toss the hot fried chicken in the glaze. Scatter sesame and spring onions.", timer: null },
+    ],
+    tips: "The double fry is non-negotiable. The first fry cooks it; the rest lets moisture come to the surface; the second fry blasts that moisture away. That's what gives you the crunch.",
+  },
+  {
+    id: 18, title: "Panna Cotta", subtitle: "vanilla bean, honey & roasted figs",
+    time: "15 min + chill", difficulty: "Easy", category: "Desserts", cuisine: "Italian",
+    hero: "🍮", color: "#D4A76A", description: "Four ingredients, barely any effort, impossibly elegant. The wobble is everything.",
+    serves: 4, calories: 320, protein: "4g", tags: ["date-night", "make-ahead", "impressive"], season: "autumn",
+    ingredients: [
+      { item: "double cream", qty: "400ml", section: "Panna Cotta" },
+      { item: "whole milk", qty: "100ml", section: "Panna Cotta" },
+      { item: "caster sugar", qty: "50g", section: "Panna Cotta" },
+      { item: "vanilla pod, split", qty: "1", section: "Panna Cotta" },
+      { item: "leaf gelatine", qty: "2.5 sheets", section: "Panna Cotta" },
+      { item: "fresh figs, halved", qty: "4", section: "Topping" },
+      { item: "honey", qty: "2 tbsp", section: "Topping" },
+      { item: "pistachios, crushed", qty: "1 tbsp", section: "Topping" },
+    ],
+    steps: [
+      { text: "Soak gelatine in cold water for 5 minutes until floppy. Heat cream, milk, sugar, and vanilla seeds until just steaming — don't boil.", timer: 300 },
+      { text: "Squeeze excess water from the gelatine, whisk it into the warm cream until dissolved. Strain into glasses or moulds.", timer: null },
+      { text: "Refrigerate for at least 4 hours, ideally overnight. The set should be a gentle wobble, not firm.", timer: null },
+      { text: "Roast fig halves with honey at 200°C for 10 minutes until soft and caramelised. Serve on top of panna cotta with crushed pistachios.", timer: 600 },
+    ],
+    tips: "2.5 sheets of gelatine is the magic number for this amount of cream — more gives you a rubber texture. You want it to barely hold its shape when you tilt the glass.",
+  },
+  {
+    id: 19, title: "Kimchi Fried Rice", subtitle: "crispy rice, fried egg & gochugaru",
+    time: "15 min", difficulty: "Easy", category: "Mains", cuisine: "Korean",
+    hero: "🍚", color: "#CC5533", description: "The ultimate fridge-clear recipe. Day-old rice + aged kimchi = magic. The crispy rice bottom is the best bit.",
+    serves: 2, calories: 420, protein: "14g", tags: ["quick", "weeknight", "comfort"], season: "all",
+    ingredients: [
+      { item: "day-old cooked rice", qty: "400g", section: "Main" },
+      { item: "aged kimchi, roughly chopped", qty: "200g", section: "Main" },
+      { item: "kimchi juice", qty: "2 tbsp", section: "Main" },
+      { item: "sesame oil", qty: "1 tbsp", section: "Main" },
+      { item: "gochugaru or gochujang", qty: "1 tbsp", section: "Main" },
+      { item: "soy sauce", qty: "1 tbsp", section: "Main" },
+      { item: "butter", qty: "1 tbsp", section: "Main" },
+      { item: "eggs", qty: "2", section: "Topping" },
+      { item: "spring onions & sesame seeds", qty: "to finish", section: "Finish" },
+    ],
+    steps: [
+      { text: "Heat sesame oil in a wide pan over high heat. Fry the kimchi for 2 minutes until slightly caramelised and fragrant.", timer: 120 },
+      { text: "Add the rice, breaking up any clumps. Add gochugaru, soy sauce, kimchi juice and butter. Stir-fry for 2 minutes.", timer: 120 },
+      { text: "Press the rice flat into the pan and DON'T TOUCH IT for 3 minutes. You want a crispy, golden crust on the bottom — nurungji.", timer: 180 },
+      { text: "Fry eggs in a separate pan until the whites are set but yolks are runny. Serve rice crust-side up, topped with eggs, spring onions and sesame.", timer: null },
+    ],
+    tips: "Day-old rice is essential — fresh rice is too wet and won't crisp. And the 3 minutes of not touching the rice is the hardest part. Trust the process.",
+  },
+  {
+    id: 20, title: "Roasted Beetroot Salad", subtitle: "whipped goat's cheese, walnuts & honey",
+    time: "50 min", difficulty: "Easy", category: "Sides", cuisine: "Modern European",
+    hero: "🟣", color: "#8B1A4A", description: "Sweet, earthy beetroot against tangy whipped cheese. A side that looks like it belongs in a restaurant.",
+    serves: 4, calories: 240, protein: "8g", tags: ["vegetarian", "impressive", "healthy"], season: "autumn",
+    ingredients: [
+      { item: "mixed beetroot (red and golden)", qty: "500g", section: "Main" },
+      { item: "olive oil", qty: "2 tbsp", section: "Main" },
+      { item: "balsamic vinegar", qty: "1 tbsp", section: "Main" },
+      { item: "soft goat's cheese", qty: "150g", section: "Whipped Cheese" },
+      { item: "double cream", qty: "2 tbsp", section: "Whipped Cheese" },
+      { item: "lemon zest", qty: "½ lemon", section: "Whipped Cheese" },
+      { item: "walnuts, toasted", qty: "50g", section: "Topping" },
+      { item: "honey", qty: "1 tbsp", section: "Topping" },
+      { item: "fresh dill or mint", qty: "handful", section: "Topping" },
+      { item: "flaky sea salt", qty: "", section: "Finish" },
+    ],
+    steps: [
+      { text: "Wrap beetroot in foil with olive oil and salt. Roast at 200°C for 40–45 minutes until a knife slides through easily. Cool slightly, then peel and quarter.", timer: 2520 },
+      { text: "Whip goat's cheese with cream, lemon zest, salt and pepper until light and fluffy.", timer: null },
+      { text: "Toss warm beetroot with balsamic vinegar and a drizzle of olive oil.", timer: null },
+      { text: "Spread whipped cheese on a platter, pile beetroot on top. Scatter walnuts, drizzle honey, finish with herbs and flaky salt.", timer: null },
+    ],
+    tips: "If you can find golden and candy-stripe beetroot alongside the red, the platter looks incredible. And warm beetroot on cold whipped cheese is the contrast that makes this dish.",
+  },
 ];
 
 const CATEGORIES = ["All", "Mains", "Sides", "Brunch", "Desserts"];
@@ -600,8 +795,109 @@ function NewsletterSection() {
 // MAIN APP
 // ═══════════════════════════════════════════
 
+// ─── About Page ──────────────────────────
+
+function AboutPage({ onBack }) {
+  return (
+    <div style={{ animation: "fadeIn 0.4s ease", maxWidth: 680, margin: "0 auto" }}>
+      <button onClick={onBack} style={{ background: "none", border: "1px solid #2A2A2A", color: "#888", padding: "8px 18px", borderRadius: 20, cursor: "pointer", fontSize: 12, fontFamily: "var(--ff-mono)", transition: "all 0.2s", marginBottom: 32 }}
+        onMouseEnter={e => { e.target.style.borderColor = "#555"; e.target.style.color = "#ddd"; }}
+        onMouseLeave={e => { e.target.style.borderColor = "#2A2A2A"; e.target.style.color = "#888"; }}>← Back</button>
+
+      <div style={{ fontSize: 10, textTransform: "uppercase", letterSpacing: 3, color: "#C4533A", marginBottom: 16, fontWeight: 600 }}>About</div>
+      <h1 style={{ fontSize: 42, fontWeight: 400, fontFamily: "var(--ff-serif)", color: "#F0EDE8", margin: "0 0 24px", lineHeight: 1.1 }}>
+        The person behind the plate<span style={{ color: "#C4533A" }}>.</span>
+      </h1>
+
+      <div style={{ fontSize: 48, marginBottom: 24 }}>👨‍🍳</div>
+
+      <div style={{ fontSize: 15, color: "#999", lineHeight: 1.8 }}>
+        <p style={{ marginBottom: 20 }}>
+          Flavour Fling started from a simple belief: restaurant-quality food shouldn't require a restaurant kitchen. It just requires understanding <em>why</em> things work, not just following steps.
+        </p>
+        <p style={{ marginBottom: 20 }}>
+          I'm Charlie — a former chef and kitchen manager turned medical student, with a deep love for food that's never gone away. I've spent years in professional kitchens learning the techniques that make the difference between good and unforgettable, and Flavour Fling is where I share them.
+        </p>
+        <p style={{ marginBottom: 20 }}>
+          Every recipe here is developed and tested in a normal home kitchen. No sous vide circulators, no industrial ovens — just good ingredients, proper technique, and a bit of patience. The chef's tips on each recipe are the bits you'd learn standing next to someone who's cooked the dish a hundred times.
+        </p>
+        <p style={{ marginBottom: 20 }}>
+          Whether it's teaching you why the mantecatura makes a risotto, why you should never skip the double-fry on fried chicken, or why your pasta water matters more than your sauce — every recipe is trying to make you a better, more confident cook.
+        </p>
+
+        <div style={{ background: "#161616", borderRadius: 16, padding: 24, border: "1px solid rgba(255,255,255,0.04)", marginBottom: 24 }}>
+          <div style={{ fontSize: 10, textTransform: "uppercase", letterSpacing: 2, color: "#C4533A", marginBottom: 12, fontWeight: 600 }}>The philosophy</div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            {[
+              ["No shortcuts", "If a step matters, it stays. If it doesn't, it's gone."],
+              ["Technique over tricks", "Understanding why something works means you can adapt any recipe."],
+              ["Honest ingredients", "Good olive oil, proper stock, real butter. The basics done right."],
+              ["Home-kitchen tested", "Every recipe developed on a standard oven with normal equipment."],
+            ].map(([title, desc], i) => (
+              <div key={i} style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
+                <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#C4533A", marginTop: 8, flexShrink: 0 }} />
+                <div>
+                  <span style={{ color: "#ddd", fontWeight: 500 }}>{title}</span>
+                  <span style={{ color: "#777" }}> — {desc}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <p style={{ color: "#666", fontSize: 14 }}>
+          Got a question, recipe request, or just want to say hello? Drop me a line at <span style={{ color: "#C4533A" }}>hello@flavourfling.com</span>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+// ─── Privacy Policy Page ─────────────────
+
+function PrivacyPage({ onBack }) {
+  return (
+    <div style={{ animation: "fadeIn 0.4s ease", maxWidth: 680, margin: "0 auto" }}>
+      <button onClick={onBack} style={{ background: "none", border: "1px solid #2A2A2A", color: "#888", padding: "8px 18px", borderRadius: 20, cursor: "pointer", fontSize: 12, fontFamily: "var(--ff-mono)", transition: "all 0.2s", marginBottom: 32 }}
+        onMouseEnter={e => { e.target.style.borderColor = "#555"; e.target.style.color = "#ddd"; }}
+        onMouseLeave={e => { e.target.style.borderColor = "#2A2A2A"; e.target.style.color = "#888"; }}>← Back</button>
+
+      <div style={{ fontSize: 10, textTransform: "uppercase", letterSpacing: 3, color: "#C4533A", marginBottom: 16, fontWeight: 600 }}>Legal</div>
+      <h1 style={{ fontSize: 36, fontWeight: 400, fontFamily: "var(--ff-serif)", color: "#F0EDE8", margin: "0 0 8px" }}>
+        Privacy Policy
+      </h1>
+      <p style={{ fontSize: 13, color: "#555", fontFamily: "var(--ff-mono)", marginBottom: 32 }}>Last updated: March 2026</p>
+
+      <div style={{ fontSize: 14, color: "#999", lineHeight: 1.8 }}>
+        {[
+          { title: "Who we are", content: "Flavour Fling is a recipe website operated by Charlie Webb. Our website address is https://flavourfling.vercel.app." },
+          { title: "What data we collect", content: "When you visit our site, we collect anonymous usage data through Google Analytics, including pages visited, time spent on pages, device type, and approximate geographic location. If you subscribe to our newsletter, we collect your email address. We do not collect names, payment information, or any other personally identifiable information beyond what is listed here." },
+          { title: "How we use your data", content: "Analytics data helps us understand which recipes are popular and how to improve the site. Email addresses are used solely to send our weekly newsletter and are never shared with third parties." },
+          { title: "Cookies", content: "We use cookies for Google Analytics (to understand site traffic) and Google AdSense (to display relevant advertisements). You can control cookie preferences through your browser settings. Third-party advertisers may use cookies to serve ads based on your prior visits to this or other websites." },
+          { title: "Third-party services", content: "We use Google Analytics for traffic analysis, Google AdSense for advertising, and Vercel for website hosting. Each of these services has their own privacy policy governing how they handle data." },
+          { title: "Advertising", content: "We display advertisements through Google AdSense. These ads may use cookies to serve ads based on your interests. You can opt out of personalised advertising by visiting Google's Ad Settings page." },
+          { title: "Data retention", content: "Analytics data is retained for 26 months. Newsletter subscriber data is retained until you unsubscribe. You can unsubscribe at any time using the link in any newsletter email." },
+          { title: "Your rights", content: "Under UK GDPR, you have the right to access, correct, or delete your personal data. You can also object to processing or request data portability. To exercise any of these rights, contact us at hello@flavourfling.com." },
+          { title: "Children's privacy", content: "This site is not directed at children under 13. We do not knowingly collect personal data from children." },
+          { title: "Changes to this policy", content: "We may update this privacy policy from time to time. Changes will be posted on this page with an updated revision date." },
+          { title: "Contact", content: "For any privacy-related questions, please email hello@flavourfling.com." },
+        ].map((section, i) => (
+          <div key={i} style={{ marginBottom: 24 }}>
+            <h3 style={{ fontSize: 16, fontWeight: 400, fontFamily: "var(--ff-serif)", color: "#F0EDE8", margin: "0 0 8px" }}>{section.title}</h3>
+            <p style={{ margin: 0, color: "#888" }}>{section.content}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ═══════════════════════════════════════════
+// MAIN APP
+// ═══════════════════════════════════════════
+
 export default function FlavourFlingApp() {
-  const [view, setView] = useState("home");
+  const [view, setView] = useState("home"); // home | recipe | bookmarks | about | privacy
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [activeCategory, setActiveCategory] = useState("All");
   const [activeTags, setActiveTags] = useState([]);
@@ -609,6 +905,31 @@ export default function FlavourFlingApp() {
   const [bookmarks, setBookmarks] = useState([]);
   const [shoppingListRecipes, setShoppingListRecipes] = useState([]);
   const [showShoppingList, setShowShoppingList] = useState(false);
+
+  // ─── Google Analytics ────────────────
+  useEffect(() => {
+    const GA_ID = "G-XXXXXXXXXX"; // Replace with your GA4 Measurement ID
+    if (GA_ID === "G-XXXXXXXXXX") return; // Skip if not configured
+    const script = document.createElement("script");
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+    script.async = true;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag("js", new Date());
+    gtag("config", GA_ID, { anonymize_ip: true });
+  }, []);
+
+  // Track page views on view change
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag("event", "page_view", {
+        page_title: view === "recipe" && selectedRecipe ? selectedRecipe.title : view,
+        page_location: window.location.href,
+      });
+    }
+  }, [view, selectedRecipe]);
 
   const toggleBookmark = id => setBookmarks(p => p.includes(id) ? p.filter(b => b !== id) : [...p, id]);
   const addToShoppingList = recipe => setShoppingListRecipes(p => p.find(r => r.id === recipe.id) ? p : [...p, recipe]);
@@ -662,7 +983,11 @@ export default function FlavourFlingApp() {
       </header>
 
       <main style={{ padding: "28px 28px 80px", maxWidth: 1200, margin: "0 auto" }}>
-        {view === "recipe" && selectedRecipe ? (
+        {view === "about" ? (
+          <AboutPage onBack={goHome} />
+        ) : view === "privacy" ? (
+          <PrivacyPage onBack={goHome} />
+        ) : view === "recipe" && selectedRecipe ? (
           <RecipeDetail recipe={selectedRecipe} onBack={goHome} bookmarked={bookmarks.includes(selectedRecipe.id)} onBookmark={toggleBookmark} onAddToList={addToShoppingList} />
         ) : (
           <>
@@ -726,7 +1051,11 @@ export default function FlavourFlingApp() {
               <div style={{ display: "flex", gap: 28 }}>
                 <div>
                   <div style={{ fontSize: 9, textTransform: "uppercase", letterSpacing: 2, color: "#444", marginBottom: 10 }}>Navigate</div>
-                  {["Recipes", "Collections", "About", "Contact"].map(l => <div key={l} style={{ fontSize: 12, color: "#555", marginBottom: 6, cursor: "pointer" }}>{l}</div>)}
+                  {[
+                    { label: "Recipes", action: goHome },
+                    { label: "About", action: () => { setView("about"); window.scrollTo({top:0,behavior:"smooth"}); } },
+                    { label: "Privacy Policy", action: () => { setView("privacy"); window.scrollTo({top:0,behavior:"smooth"}); } },
+                  ].map(l => <div key={l.label} onClick={l.action} style={{ fontSize: 12, color: "#555", marginBottom: 6, cursor: "pointer", transition: "color 0.2s" }} onMouseEnter={e => e.target.style.color="#999"} onMouseLeave={e => e.target.style.color="#555"}>{l.label}</div>)}
                 </div>
                 <div>
                   <div style={{ fontSize: 9, textTransform: "uppercase", letterSpacing: 2, color: "#444", marginBottom: 10 }}>Social</div>
