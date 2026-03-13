@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
-        {/* Google Analytics - replace G-XXXXXXXXXX with your actual GA4 ID */}
+        {/* Google Analytics - replace G-CDD4SGWCB7 with your actual GA4 ID */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-CDD4SGWCB7"
           strategy="afterInteractive"
         />
         <Script id="ga-init" strategy="afterInteractive">
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', { anonymize_ip: true });
+            gtag('config', 'G-CDD4SGWCB7', { anonymize_ip: true });
           `}
         </Script>
       </head>
